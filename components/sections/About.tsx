@@ -48,7 +48,7 @@ export default function About() {
            <motion.div variants={itemVariants} className="md:col-span-2 lg:col-span-2 row-span-2 bg-secondary/50 rounded-[2.5rem] p-10 flex flex-col justify-end relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/70 to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?q=80&w=800&auto=format&fit=crop" 
+                src="/images/image1.png" 
                 alt="Biji Kopi Premium" 
                 className="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:scale-105 transition-all duration-700 z-0"
               />
@@ -68,7 +68,7 @@ export default function About() {
            <motion.div variants={itemVariants} className="bg-foreground rounded-[2.5rem] p-8 flex flex-col text-background relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/70 to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop" 
+                src="/images/image2.png" 
                 alt="Wi-Fi Cepat" 
                 className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-80 transition-all duration-700 z-0"
               />
@@ -86,7 +86,7 @@ export default function About() {
            <motion.div variants={itemVariants} className="bg-primary rounded-[2.5rem] p-8 flex flex-col text-primary-foreground relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=800&auto=format&fit=crop" 
+                src="/images/image3.png" 
                 alt="Sudut Produktif" 
                 className="absolute inset-0 w-full h-full object-cover opacity-70 mix-blend-multiply group-hover:scale-105 group-hover:opacity-100 transition-all duration-700 z-0"
               />
@@ -101,7 +101,7 @@ export default function About() {
            <motion.div variants={itemVariants} className="md:col-span-2 lg:col-span-2 bg-secondary/80 rounded-[2.5rem] p-8 flex items-center gap-8 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-r from-secondary/100 via-secondary/70 to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000&auto=format&fit=crop" 
+                src="/images/image4.png" 
                 alt="Tempat Berkumpul" 
                 className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700 z-0"
               />

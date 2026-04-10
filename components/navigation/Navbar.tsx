@@ -52,13 +52,13 @@ export default function Navbar() {
         </nav>
 
         {/* Center Logo */}
-        <a href="#" className="flex items-center justify-center flex-1">
+        <a href="#" className="flex items-center justify-center bg-accent rounded-full w-11 h-11 md:w-14 md:h-14 shrink-0 shadow-sm border border-foreground/5">
           <Image
             src="/images/logo.png"
             alt="Cafela Logo"
-            width={50}
-            height={50}
-            className="h-full w-auto object-contain drop-shadow-lg"
+            width={56}
+            height={56}
+            className="h-full w-full object-contain drop-shadow-lg p-1.5 md:p-2.5"
             priority
           />
         </a>
