@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Warm cafe palette */
+  --background: #FFFDFC;
+  /* Warm light » Almost white but cozy */
+  --foreground: #1A1412;
+  /* Espresso » Deep brown/black */
+  --primary: #ffe500;
+  /* Caramel » Warm elegant orange/brown */
+  --primary-foreground: #FFFDFC;
+  --secondary: #F6EFEA;
+  /* Light latte » for cards/sections */
+  --muted: #6A5E57;
+  /* Subdued text */
+  --accent: #2A201A;
+  /* Dark roasted » for dark sections */
+  --accent-foreground: #F6EFEA;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  /* Set default font family */
+  --font-outfit: var(--font-outfit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
